@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+	padding: 0;
+font-family: 'Vollkorn', serif;
+}
+img{
+	width: 20%;
+}
+
+div{
+	background-color: lightgreen;
+	padding: 10px;
+}
+.div2{
+	background-color: lightyellow;
+}
+header{
+	background-color: #3EA959;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+a{
+	color:lightgrey;
+	text-decoration: none;
+}
+
+footer{
+	background-color: grey;
+	height: 100px;
+	padding: 10px 20px;
+}
+
+.card{
+	display:  inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #3EA959;
+	margin: 1%;
+	padding: 10px;
+	
+}
+.the{
+	width:50%;
+}
