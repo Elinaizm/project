@@ -1,25 +1,101 @@
+body, h1, h2, h3,  header, a, footer {
+ 	font-family: Arial ;
+    font-style: normal ;
+    font-weight: bold ;
+
+}
+
 body{
 	margin: 0;
 	padding: 0;
-font-family: 'Vollkorn', serif;
 }
 img{
 	width: 20%;
 }
 
+.img{
+
+	width: 200px;
+	height: auto;
+}
+.img2{
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.img3{
+	display: block;
+	margin: 0 auto;
+	width: 95%;
+}
+
+.img4{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.img5{
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+h1{
+    font-size: 72px ;
+    line-height: 83px ;
+    color: #000000 ;
+    margin: 9px 0px ;
+	text-align: center;
+}
+
+h2{
+	font-size: 36px ;
+    line-height: 83px ;
+    color: #000000 ;
+    margin: 9px 0px ;
+}
+
+h3{
+    color: #000000 ;
+    margin: 9px 0px ;
+    text-align: center;
+}
+
+
 div{
-	background-color: lightgreen;
+	background-color: white;
 	padding: 10px;
+	
 }
-.div2{
-	background-color: lightyellow;
+
+hr {
+	position: relative;
+	display: block;
+	border: 0;
+	top: 4.5em;
+	margin-bottom: 9em;
+	height: 6px;
+	border-top: solid 1px rgba(128, 128, 128, 0.2);
+	border-bottom: solid 1px rgba(128, 128, 128, 0.2);
 }
+
 header{
 	background-color: #3EA959;
 	color: white;
 	font-size: 20px;
 	text-align: center;
 }
+
+
 a{
 	color:lightgrey;
 	text-decoration: none;
@@ -35,16 +111,54 @@ footer{
 	display:  inline-block;
 	width: 800px;
 	height: auto;
-	background-color: #3EA959;
 	margin: 1%;
 	padding: 10px;
 	
 }
 .the{
-	width:50%;
+	margin: 0 auto;
+	width:100%;
 }
-.img{
 
-	width: 200px;
-	height: auto;
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.row2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+.row > .col-1-wide {
+width: 33.33333%;
+}
+.row > .col-2-wide {
+width: 33.33333%;
+}
+.row > .col-3-wide {
+width: 33.33333%;
+}
+.row2 > .col-4-wide {
+width: 33.33333%;
+}
+.row2 > .col-5-wide {
+width: 33.33333%;
+}
+.row2 > .col-6-wide {
+width: 33.33333%;
+}
+
+
+
+.blok{
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1400px;
+	
 }
